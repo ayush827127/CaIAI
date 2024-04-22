@@ -1,8 +1,7 @@
-import productImage from "/productImage.jpg";
+import productImage from "../../public/productImage.jpg";
 import React from "react";
 import Navbar from "./Navbar";
 import useAuth from "../hooks/useAuth";
-import App from "../App";
 import { useNavigate } from "react-router-dom";
 
 const ProductListing = () => {
@@ -48,7 +47,7 @@ const ProductListing = () => {
           <button
             className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded w-full"
             onClick={handleBuyButton}
-          >y
+          >
             Buy
           </button>
         </div>
